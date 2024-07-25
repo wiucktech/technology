@@ -180,3 +180,14 @@ button  {
     align-items: center;
     margin-left: 10%;
 }
+li a:visited {
+    color: #ffffff;
+}
+ video {
+ border-radius: 50px;
+ align-items: center;
+ margin-top: 10%;
+ padding: 10px;
+ float: left;
+ margin-left: 10%;
+}
