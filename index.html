@@ -1,49 +1,87 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="styles.css">
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wiuck Technology</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Главная</title>
+
+	<script src="libs/gsap/gsap.min.js" defer></script>
+
+	<script src="libs/swiper/swiper-bundle.min.js" defer></script>
+	<link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/app.js" defer></script>
+    <link rel="icon" href="static.png" type="image/png">
 </head>
 <body>
-    <header>
-        <a href="https://wiucktech.github.io/technology/" class="logo"><img src="Frame 7 — копия (5).png" height="52"></a>
-        <nav>
-            <ul>
-                <li><a href="https://wiucktech.github.io/newspage/"><img src="news.png" width="250"></a></li>
-                <li><a href="https://wiucktech.github.io/technology/"><img src="trailer.png" width="250"></a></li>
-                <li><a href="https://wiucktech.github.io/about/"><img src="about.png" width="250"></a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="videos">
-        <video src="Y2mate.mx-realme GT3 Pulse Interface Design _ Show off your style✨.mp4" width="360" autoplay muted></video>
-        
-    </div>
-    <div class="S22">
-        <video src="Y2mate.mx-Galaxy S22 Ultra_ Unveiling _ Samsung.mp4" width="360" autoplay muted></video>
-    </div>
-   
-</body>
-<body>
-<div class="social">
-    <center>
-    
-    
-    <center>
 
-    <div class="Dzen"><a href="https://dzen.ru/id/6692c2929148eb681d8db37e"><img src="dzen.png"></div>
-</center>
-<center>
-   <div class="Tiktok"> <a href="https://www.tiktok.com/@wiuck.studio?_t=8oP3Axtzcgp&_r=1"><img src="tiktok.png"></div>
-</center>
-<center>
-    <div class="Youtube"><a href="https://www.youtube.com/@WiuckChannel"><img src="youtube.png"></div>
-</center>
-<center>
-    <div class="Telegram"> <a href="https://t.me/wiuck_ch"><img src="telegram.png"></div>
-</center>
-<div class="newsbutton"><a href="https://t.me/wiuckm"><img src="newsbutton.png"></a></div>
+	<div class="top-line">
+		<div class="container container-top">
+			<div>
+				<div class="logo">
+					<img src="img/wiucklogo.png" alt="Alt">
+				</div>
+			</div>
+			<div>
+				<ul class="main-mnu">
+					<li><a href="https://wiucktech.github.io/about/">О нас</a></li>
+					<li><a href="https://wiucktech.github.io/newspage/">Новости</a></li>
+					<li><a href="https://t.me/wiuckm_bot">Предложить видео</a></li>
+					<li><a href="https://wiuck.taplink.ws">Наши соцсети</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="swiper slider">
+
+		<div class="swiper-wrapper">
+
+			<div class="swiper-slide slide">
+				<div class="slide__content">
+					<h2>Реализация</h2>
+					<p>Самая крупная группа течтокеров</p>
+					<button>Хотите к нам?</button>
+				</div>
+			</div>
+			<div class="swiper-slide slide">
+				<div class="slide__content">
+					<h2>Качество</h2>
+					<p>На каникулах активизируем работу над проектами</p>
+					
+				</div>
+			</div>
+			<div class="swiper-slide slide">
+				<div class="slide__content">
+					<h2>Дружный коллектив</h2>
+					<p>Поддерживаем контакт в чате</p>
+					
+				</div>
+			</div>
+			<div class="swiper-slide slide">
+				<div class="slide__content">
+					<h2>Удачного просмотра!</h2>
+					<p>Мы рады видеть вас на аншем сайте</p>
+				
+				</div>
+			</div>
+
+		</div>
+
+		<div class="slider-bottom">
+			<div class="slider-pagination">
+				<div class="swiper-pagination"></div>
+			</div>
+			<div class="slider-navigation">
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+		</div>
+
+	</div>
+
+	<video src="media/Gradient Background _ Copyright free video _ Endless River (360p).mp4" class="video-background" muted></video>
+
 </body>
 </html>
